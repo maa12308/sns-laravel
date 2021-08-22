@@ -8,6 +8,8 @@
                 @include('users.icon')
             </aside>
             <div class="col-sm-8">
+                {{-- 投稿フォーム --}}
+                @include('posts.form')
                 {{-- 投稿一覧 --}}
                 @include('posts.posts')
             </div>
